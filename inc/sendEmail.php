@@ -36,6 +36,7 @@ if($_POST) {
 
     // Set From: header
     $from =  $name . " <site@surgenz.com>";
+     
 
     // Email Headers
     $headers = "From: " . $from . "\r\n";
